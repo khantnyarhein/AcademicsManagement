@@ -1,0 +1,62 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# Logs
+/client-react/node_modules/logs
+/client-react/node_modules/*.log
+/client-react/node_modules/npm-debug.log*
+/client-react/node_modules/yarn-debug.log*
+/client-react/node_modules/yarn-error.log*
+/client-react/node_modules/pnpm-debug.log*
+/client-react/node_modules/lerna-debug.log*
+
+/client-react/node_modules/node_modules
+/client-react/node_modules/dist
+/client-react/node_modules/dist-ssr
+/client-react/node_modules/*.local
+
+# Editor directories and files
+/client-react/node_modules/.vscode/*
+/client-react/node_modules/!.vscode/extensions.json
+/client-react/node_modules/.idea
+/client-react/node_modules/.DS_Store
+/client-react/node_modules/*.suo
+/client-react/node_modules/*.ntvs*
+/client-react/node_modules/*.njsproj
+/client-react/node_modules/*.sln
+/client-react/node_modules/*.sw?
